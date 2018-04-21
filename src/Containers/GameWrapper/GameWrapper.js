@@ -23,7 +23,6 @@ import { speak } from './../../store/audio';
 import games from './../../Games/games';
 
 // Components
-import Loader from './../../Components/Loader';
 import * as gameComponents from './../../Games';
 
 class GameHost extends React.Component {
@@ -76,7 +75,7 @@ class GameHost extends React.Component {
 
   render() {
     const isLoading = !this.state.socketReady || !this.props.gameLoaded;
-    return <div>{isLoading ? <Loader /> : this.renderGame()}</div>;
+    return <div>{isLoading ? <p>Loading!</p> : this.renderGame()}</div>;
   }
 }
 

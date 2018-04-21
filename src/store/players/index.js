@@ -2,7 +2,6 @@
 import { addPlayerToGame, updatePlayer } from './../../services/firebase';
 
 // Helpers
-import { checkObjEmpty } from './../../utilities/helpers';
 import { saveState } from './../../utilities/localstorage';
 
 // Actions

@@ -1,4 +1,4 @@
-import { play, stop } from './../../utilities/speech';
+import { play } from './../../utilities/speech';
 
 // Actions
 const QUEUE_MESSAGE = 'app/audio/QUEUE_MESSAGE';
