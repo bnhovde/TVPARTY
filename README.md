@@ -40,7 +40,7 @@ To create a new game:
 
 ## API
 
-The `GameWrapper` is a higher-order component that will provides the following props and API:
+The `GameWrapper` is a higher-order component that will provides the following props and API to your game.
 
 Props:
 

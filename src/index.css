@@ -105,7 +105,7 @@ body {
   border: 0;
   vertical-align: baseline;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: #24292e;
 }
@@ -130,4 +130,73 @@ h1 {
 
 form {
   padding: 2rem;
+  min-width: 320px;
+}
+
+body {
+  background: #29abe2;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0 5vw;
+  margin: 2vw 0;
+  line-height: 3rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #0071bc;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 7px 7px black;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+button:hover {
+  background-color: #0a598e;
+}
+
+input {
+  width: 100%;
+  color: #171d1c;
+  margin: 0;
+  padding: 0 2.5vw;
+  line-height: 3rem;
+  font-size: 0.8rem;
+  text-align: center;
+  background: white;
+  border: 0;
+  border-radius: 3px;
+}
+
+select {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: white;
+  border: 0;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.header__inner {
+  transform: rotate(-4deg);
+}
+.header__text {
+  font-size: 10vw;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 5px 5px #000000;
+  color: white;
+  margin: 0;
+  line-height: 1.4;
 }

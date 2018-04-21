@@ -63,7 +63,11 @@ class Dashboard extends React.Component {
           height: '100vh',
         }}
       >
-        <h1>TVPARTY</h1>
+        <header className="header">
+          <div className="header__inner">
+            <h1 className="header__text">TVPARTY</h1>
+          </div>
+        </header>
 
         <h2>Join a game</h2>
 
