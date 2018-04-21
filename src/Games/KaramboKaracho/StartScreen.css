@@ -1,0 +1,30 @@
+.StartScreen {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gameCode {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.players {
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.players .player {
+    margin-top: 1.0rem;
+}
+
+.players .player.not-ready {
+    color: red;
+}
+
+.players .player.ready {
+    color: green;
+}

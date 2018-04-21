@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb", "prettier/react"],
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "prettier/prettier": "error",
+    "arrow-parens": 0,
+    "function-paren-newline": 0,
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+.Alcometer {
+    position: relative;
+    transition: all 0.5s ease;
+    border: solid #222222 2px;
+    border-top: 0;
+    height: 102px;
+}
+.Alcometer img {
+    height: 100px;
+}
+
+.Alcometer .meter {
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 0%;
+    height: 100px;
+    background-color: rgba(255, 234, 0, 0.60);
+}
