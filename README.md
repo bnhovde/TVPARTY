@@ -12,6 +12,8 @@ For an idea of what you could do, [check out the demo](https://tvparty-io.heroku
 
 ## Running locally:
 
+TVPARTY uses firebase for the real-time database. You can use whatever you want to, but if you just wanna get going, create a new firebase app and copy the config variables to the `/constants/config.js` file and you're good to go.
+
 ```
 npm install
 npm start
