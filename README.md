@@ -6,9 +6,7 @@ Framework for building multiplayer games for the tv.
 
 TVPARTY is a react app with some helpers on place for building real-time multiplayer games like kahoot or jackbox.
 
-## Example version with games
-
-[TVPARTY with example games](https://github.com/bnhovde/TVPARTY-example)
+For an idea of what it looks like, [check out the demo](https://tvparty-io.herokuapp.com/) and [view the demo source](https://github.com/bnhovde/TVPARTY-example).
 
 ## Running locally:
 
