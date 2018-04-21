@@ -1,4 +1,4 @@
-# TVPARTY
+# 📺🎉 TVPARTY
 
 Framework for building multiplayer games for the tv.
 
@@ -8,7 +8,7 @@ TVPARTY is a react app with some helpers on place for building real-time multipl
 
 Take a look at the example game included for a super simple example.
 
-For an idea of what you could do, [check out the demo](https://tvparty-io.herokuapp.com/) [source](https://github.com/bnhovde/TVPARTY-example).
+For an idea of what you could do, [check out the demo](https://tvparty-io.herokuapp.com/) ([source](https://github.com/bnhovde/TVPARTY-example)).
 
 ## Running locally:
 
