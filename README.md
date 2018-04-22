@@ -1,10 +1,10 @@
-# 📺🎉 TVPARTY
+# TVPARTY 📺🎉
 
-Framework for building multiplayer games for the tv.
+Boilerplate for building multiplayer games for the tv.
 
 ## What is it?
 
-TVPARTY is a react app with some helpers on place for building real-time multiplayer games like kahoot or jackbox.
+TVPARTY is a react app/node server with some helpers on place for building real-time multiplayer games like kahoot or jackbox.
 
 Take a look at the example game included for a super simple example.
 
@@ -12,14 +12,18 @@ For an idea of what you could do, [check out the demo](https://tvparty-io.heroku
 
 ## Running locally:
 
-TVPARTY uses firebase for the real-time database. You can use whatever you want to, but if you just wanna get going, create a new firebase app and copy the config variables to the `/constants/config.js` file and you're good to go.
+1: Clone the repo
+
+2: Add config variables
+
+> TVPARTY uses firebase for the real-time database. Create a new firebase app and copy the config variables to the `/constants/config.js` file.
+
+3: Start the client and server
 
 ```
 npm install
 npm start
 ```
-
-Then start the node server
 
 ```
 node server
