@@ -1,4 +1,4 @@
-import * as firebase from 'firebase';
+import firebase from 'firebase';
 import config from './../constants/config';
 
 firebase.initializeApp(config);
